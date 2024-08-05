@@ -1,0 +1,224 @@
+body{
+  /* background-image: url("https://www.technonworld.com/wp-content/uploads/2021/12/Blogging.jpg");
+  background-size: cover; */
+}
+
+.bi {
+    margin-right: 10px;
+}
+
+.index{
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+    /* background-image: url("https://www.travelandleisure.com/thmb/UT3s427mWGUk9OCnc7jltBrCbsU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-airpplane-taking-off-FLIGHTDEALS0923-7b2f9808fd324bf09423c29e44c1f96a.jpg");
+    background-size: cover; */
+    /* height: 100vh;
+    width: 100%;
+    background-position: center; */
+} 
+
+.index h1{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+.index p{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+
+.index a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:white;
+}
+
+.nishButton{
+  background-color: green;
+  font-family: 'times new roman', cursive;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.nishButton1{
+  background-color: rgb(16, 96, 255);
+  font-family: 'times new roman', cursive;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.nishButton2{
+  background-color: purple;
+  font-family: 'times new roman', cursive;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.nishButton:hover{
+  background-color: grey;
+  color: #ffe989;
+}
+
+.posts {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.card2 {
+  width: 100%;
+  margin: auto;
+}
+
+.card-body1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+  margin: 0px;
+}
+
+.posts{
+  margin-top: 2%;
+  align-items: center;
+  text-align: center;
+}
+
+.createForm{
+    margin-top: 2%;
+    align-items: center;
+    text-align: center;
+}
+
+.mainBg{
+  background-image: url("https://www.travelandleisure.com/thmb/UT3s427mWGUk9OCnc7jltBrCbsU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-airpplane-taking-off-FLIGHTDEALS0923-7b2f9808fd324bf09423c29e44c1f96a.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+}
+
+.card1{
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: #000;
+}
+
+
+footer{
+  width: 100%;
+  height: 115px;
+  /* position: fixed; */
+  bottom:0px;
+  text-align: center;
+  align-items: center;
+  margin: 0px !important;
+  color: black !important;
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='40' height='40' patternTransform='scale(2) rotate(80)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(39,100%,82.9%,1)'/><path d='M23.222 25.097l-3.266-2.056-3.219 2.058.983-3.847-3.042-2.503 3.936-.18 1.52-3.668 1.342 3.578 3.846.312-2.996 2.505z'  stroke-linecap='square' stroke-width='7' stroke='hsla(350,30.3%,34.3%,1)' fill='none'/><path d='M.133-5.1l-1.52 3.668-3.935.18 3.043 2.504-.985 3.848L-.043 3.04l3.264 2.057-.895-3.803L5.322-1.21l-3.845-.312L.133-5.1zm40 0l-1.52 3.668-3.935.18 3.043 2.504-.985 3.848 3.221-2.059 3.264 2.057-.895-3.803 2.996-2.504-3.845-.312L40.133-5.1zm-40 40l-1.52 3.668-3.935.18 3.043 2.504-.985 3.848 3.221-2.059 3.264 2.057-.895-3.803 2.996-2.504-3.845-.312L.133 34.9zm40 0l-1.52 3.668-3.935.18 3.043 2.504-.985 3.848 3.221-2.059 3.264 2.057-.895-3.803 2.996-2.504-3.845-.312-1.344-3.579z'  stroke-linecap='square' stroke-width='7' stroke='hsla(63,27.8%,71.8%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>"); */
+  /* background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='34.129' height='45' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 0%, 1)'/><path d='M2.51 1.597A23.682 23.682 0 000 1.72v32.65c2.18-2 4.176-4.072 5.844-5.915 3.188-3.523 9.14-2.133 10.242 2.488a5.048 5.048 0 01-.467 3.649c-1.5 2.829-3.843 2.848-5.616 2.316-1.343-.403-2.579.882-2.085 2.193.878 2.334 3.46 4.9 10.724 4.18 5.05-.5 10.712-4.53 15.487-8.911V1.72c-7.355.728-16.01 8.948-21.33 14.827-3.188 3.522-9.14 2.133-10.242-2.489a5.05 5.05 0 01.466-3.648C4.525 7.58 6.867 7.56 8.64 8.092c1.342.403 2.578-.88 2.085-2.192-.77-2.042-2.842-4.262-8.214-4.303z'  stroke-width='1' stroke='none' fill='hsla(339, 70%, 60%, 1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>"); */
+  /* background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  background-color: transparent !important;
+
+}
+
+
+
+.ColorBlack{
+  color: wheat !important;
+  font-weight: bold;
+  font-family: Coffee, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  /* font-weight: 900; */
+}
+
+.ColorBlack1{
+  color: wheat !important;
+  font-weight: bold;
+  font-family: Coffee, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  /* font-weight: 900; */
+}
+
+
+.navbar{
+  /* background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  background-color: transparent !important;
+  font-weight: bold;
+  font-family: Coffee, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.form1{
+  font-size: 1 rem;
+  color: black;
+  font-weight: bold;
+}
+
+.post1{
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+
+
+}
+
+/* .create1{
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: transparent;
+  background-image: url("https://www.technonworld.com/wp-content/uploads/2021/12/Blogging.jpg");;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.form-group{
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+} */

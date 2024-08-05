@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+
+<div class="index">
+    <h1>Welcome to FE's Blog Posts</h1>
+    <button class="nishButton"><a href="/create">Create a new post</a></button>
+    <div class="posts">
+        <div class="row">
+            <% posts.forEach(post => { %>
+                <div class="col-md-4 mb-4 d-flex align-items-center">
+                    <div class="card card2">
+                        <div class="card-body card-body1">
+                            <h5 class="card-title"><%= post.title %></h5>
+                            <p class="card-text"><%= post.content %></p>
+                            <form action="/delete/<%= post.id %>" method="POST" style="display:inline;">
+                                <button class="btn nishButton2">Delete</button>
+                                <button class="btn nishButton1" href="/edit/<%= post.id %>">Update</button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</div>
+
+<%- include('partials/footer') %>
